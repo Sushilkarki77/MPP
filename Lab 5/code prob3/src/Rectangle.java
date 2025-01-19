@@ -1,6 +1,6 @@
 public final class Rectangle implements Shape {
-    double length;
-    double breadth;
+    private final double length;
+    private final double breadth;
 
 
     Rectangle(double length, double breadth) {
