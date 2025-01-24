@@ -1,4 +1,4 @@
-package src;
+package prob4;
 
 public interface QuackBehavior {
 

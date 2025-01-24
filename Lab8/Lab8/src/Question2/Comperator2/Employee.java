@@ -1,4 +1,4 @@
-package Question1.Comperator2;
+package Question2.Comperator2;
 
 public class Employee {
     String name;

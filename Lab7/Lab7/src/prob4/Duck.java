@@ -1,4 +1,4 @@
-package src;
+package prob4;
 
 public abstract class Duck implements FlyBehavior, QuackBehavior {
 

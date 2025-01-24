@@ -1,4 +1,4 @@
-package lesson8.lecture.comparator3;
+package Question2.Comperator3;
 
 public class Employee {
 	String name;

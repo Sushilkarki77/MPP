@@ -1,4 +1,4 @@
-package Question1.Comperator2;
+package Question2.Comperator2;
 
 import java.util.Collections;
 import java.util.List;
@@ -7,7 +7,7 @@ public class EmployeeInfo {
     static enum SortMethod {BYNAME, BYSALARY};
     private SortMethod method;
 
-    public EmployeeInfo(SortMethod method) {
+     EmployeeInfo(SortMethod method) {
         this.method = method;
     }
     //Comparators are unaware of the value in method

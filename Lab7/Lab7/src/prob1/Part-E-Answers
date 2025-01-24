@@ -1,2 +1,2 @@
-i.Class D must provide overridden method to resolve the conflict.
-ii.Interface D must either override the conflicting default method to resolve the conflict or stay abstract, leaving the conflict for the implementing class to resolve.
+i.D will inherit the method signature from A.
+ii.D will inherit the abstract declaration from A.
