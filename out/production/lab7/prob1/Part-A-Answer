@@ -1,0 +1,10 @@
+The ArrayList class in Java:
+Extends: AbstractList.
+
+Implements 6 Interfaces:
+1.List
+2.RandomAccess
+3.Cloneable
+4.Serializable
+5.Iterable
+6.Collection
