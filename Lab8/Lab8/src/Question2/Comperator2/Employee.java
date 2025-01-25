@@ -7,6 +7,9 @@ public class Employee {
         this.name = n;
         this.salary = s;
     }
+    public String getName() {
+        return name;
+    }
 
     @Override
     public String toString() {
