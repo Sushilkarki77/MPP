@@ -1,4 +1,4 @@
-package prob2;
+package Question2;
 
 public final class Rectangle implements Polygon {
 	final private double width;

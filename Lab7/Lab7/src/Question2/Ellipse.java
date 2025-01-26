@@ -1,4 +1,4 @@
-package prob2;
+package Question2;
 
 public class Ellipse implements ClosedCurve{
 

@@ -1,21 +1,21 @@
 A. For the provided method, when we compare two employee objects with the same name,
 the compareTo method returns 0 because it only compares the employee names.
-However, the equals method in the Employee class checks whether both the name and salary are equal.
+However, the equals method in the Practice.Employee class checks whether both the name and salary are equal.
 
 Solution:
 Rewrite EmployeeNameComparator and EmployeeSalaryComparator as follows:
 
-public class EmployeeNameComparator implements Comparator<Employee> {
+public class EmployeeNameComparator implements Comparator<Practice.Employee> {
     @Override
-    public int compare(Employee e1, Employee e2) {
+    public int compare(Practice.Employee e1, Practice.Employee e2) {
         if (e1.name.compareTo(e2.name) != 0) return e1.name.compareTo(e2.name);
         return Integer.compare(e1.salary, e2.salary);
     }
 }
 
-public class EmployeeSalaryComparator implements Comparator<Employee> {
+public class EmployeeSalaryComparator implements Comparator<Practice.Employee> {
     @Override
-    public int compare(Employee e1, Employee e2) {
+    public int compare(Practice.Employee e1, Practice.Employee e2) {
         if (Integer.compare(e1.salary, e2.salary) != 0) return Integer.compare(e1.salary, e2.salary);
         return e1.name.compareTo(e2.name);
     }
@@ -23,9 +23,9 @@ public class EmployeeSalaryComparator implements Comparator<Employee> {
 
 
 B.Overridden compare method:
-class EmployeeComparator implements Comparator<Employee> {
+class EmployeeComparator implements Comparator<Practice.Employee> {
             @Override
-            public int compare(Employee e1, Employee e2) {
+            public int compare(Practice.Employee e1, Practice.Employee e2) {
                 if (method == SortMethod.BYNAME) {
                     if (e1.name.compareTo(e2.name) != 0) return e1.name.compareTo(e2.name);
                     return Integer.compare(e1.salary, e2.salary);
@@ -40,7 +40,7 @@ class EmployeeComparator implements Comparator<Employee> {
 
 
 C. Sort using Lambda instead of inner class:
-  public void sort(List<Employee> emps, final SortMethod method) {
+  public void sort(List<Practice.Employee> emps, final SortMethod method) {
 
         Collections.sort(emps, (e1, e2) -> {
             if (method == SortMethod.BYNAME) {

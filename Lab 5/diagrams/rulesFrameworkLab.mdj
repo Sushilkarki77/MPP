@@ -17,7 +17,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Main",
+					"name": "Practice.Main",
 					"visible": true,
 					"defaultDiagram": true,
 					"ownedViews": [
@@ -111,7 +111,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "Main",
+											"text": "Practice.Main",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -5768,7 +5768,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Main",
+					"name": "Practice.Main",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",

@@ -1,4 +1,4 @@
-package prob2;
+package Question2;
 
 public final class Circle implements ClosedCurve {
 	final private double radius;

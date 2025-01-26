@@ -1,4 +1,4 @@
-package prob2;
+package Question2;
 
 public interface Polygon extends ClosedCurve {
     double[] getSides();
