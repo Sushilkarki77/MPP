@@ -1,11 +1,17 @@
 package Question5;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        HashSet<Character> vowelSet = new HashSet<>(List.of('a', 'e', 'i', 'o', 'u'));
+        Character x = 'A';
+        System.out.println(Character.toLowerCase(x));
+
 
         List<Integer> list1 = new ArrayList<>(List.of(1, 2, 3, 6, 8, 7, 0));
         Integer secondSmallest = findSecondSmallest(list1);
