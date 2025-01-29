@@ -24,6 +24,8 @@ public class Main {
                         .map(Product::getProductName)
                         .map(c -> c.equals(prodName))
                         .orElse(false)).findAny();
+
+
         return y.isPresent();
 
     }
